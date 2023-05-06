@@ -199,4 +199,18 @@ Substituting eq(13) in eq(5), we get
 \end{align}
 Hence,
 \\Probability of the event `the coin shows a tail',given that `at least one die shows a 3' is $\frac{1}{2}$.
+\\
+\\The below is the Markov Chain Diagram for this experiment.
+\\ States are labelled with numbers and they are defined as
+\\ State 0 : Initial state , a die is to be rolled
+\\ State 1 : Dice is rolled and the outcome is not a multiple of 3 , a coin is to be tossed next.
+\\ State 2 : Dice is rolled and the outcome is multiple of 3, the die is to rolled again.
+\\ State 3 : Coin is tossed and outcome is Head.
+\\ State 4 : Coin is tossed and outcome is Tail.
+\\ State 5 : Terminal state and end of experiment.
+\begin{figure}
+\centering
+\includegraphics[width=\columnwidth]{./Figure/figure.pdf}
+\caption { Markov Chain Diagram }
+\end{figure}
 \end {document}
