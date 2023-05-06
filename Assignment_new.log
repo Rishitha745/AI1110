@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  6 MAY 2023 14:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  6 MAY 2023 14:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1447,7 +1447,7 @@ Package rerunfilecheck Info: File `Assignment_new.out' has not changed.
 Here is how much of TeX's memory you used:
  29918 strings out of 476025
  601993 string characters out of 5780034
- 1891388 words of memory out of 5000000
+ 1890388 words of memory out of 5000000
  49721 multiletter control sequences out of 15000+600000
  572236 words of font info for 149 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1463,7 +1463,7 @@ s/txsy.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/
 urw/times/utmb8a.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fo
 nts/type1/urw/times/utmr8a.pfb></opt/homebrew/Cellar/texlive/20230313/share/tex
 mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Assignment_new.pdf (2 pages, 71669 bytes).
+Output written on Assignment_new.pdf (2 pages, 71660 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  69 compressed objects within 1 object stream
