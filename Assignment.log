@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  6 MAY 2023 14:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  7 MAY 2023 12:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Assignment_new.tex
-(./Assignment_new.tex
+**Assignment.tex
+(./Assignment.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22>
 (/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/ieeetran/IEEE
@@ -1224,18 +1224,8 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 4
 (/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/ot1tx
 r.fd
 File: ot1txr.fd 2000/12/15 v3.1
-) (./Assignment_new.aux
-
-LaTeX Warning: Label `eq:ncert/12/13/1/15/pmf-X' multiply defined.
-
-
-LaTeX Warning: Label `eq:ncert/12/13/1/15/pmf-X' multiply defined.
-
-
-LaTeX Warning: Label `eq:ncert/12/13/1/15/pmf-X' multiply defined.
-
-)
-\openout1 = `Assignment_new.aux'.
+) (./Assignment.aux)
+\openout1 = `Assignment.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 46.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
@@ -1361,9 +1351,9 @@ LaTeX Info: Redefining \ohm on input line 46.
 Package gensymb Info: Using \textohm for \ohm on input line 46.
 Package gensymb Info: Using \textmu for \micro on input line 46.
 Package hyperref Info: Link coloring OFF on input line 46.
- (./Assignment_new.out) (./Assignment_new.out)
+ (./Assignment.out) (./Assignment.out)
 \@outlinefile=\write4
-\openout4 = `Assignment_new.out'.
+\openout4 = `Assignment.out'.
 
 \c@theorem=\count341
 \c@problem=\count342
@@ -1372,101 +1362,76 @@ Package hyperref Info: Link coloring OFF on input line 46.
 \c@example=\count345
 \c@rem=\count346
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 1
-29.
+28.
 
 (/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/utxsy
 a.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 1
-29.
+28.
 
 (/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/utxsy
 b.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 1
-29.
+28.
 
 (/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/utxmi
 a.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 1
-29.
+28.
 
 (/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/utxsy
 c.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 1
-29.
+28.
 
 (/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/ts1tx
 r.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 10000) in paragraph at lines 126--136
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--136
-
- []
-
-
-Overfull \hbox (35.1511pt too wide) detected at line 183
-[]
- []
-
-<./Figure/figure.pdf, id=7, 160.23563pt x 116.98807pt>
+<./Figure/figure.pdf, id=7, 148.49478pt x 140.05022pt>
 File: ./Figure/figure.pdf Graphic file (type pdf)
 <use ./Figure/figure.pdf>
-Package pdftex.def Info: ./Figure/figure.pdf  used on input line 213.
-(pdftex.def)             Requested size: 252.0pt x 183.98581pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 199--216
-
- []
-
-[1{/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/map/pdftex/updm
-ap/pdftex.map}{/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/enc
-/dvips/base/8r.enc}
+Package pdftex.def Info: ./Figure/figure.pdf  used on input line 134.
+(pdftex.def)             Requested size: 252.0pt x 237.68472pt.
+ [1{/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/map/pdftex/upd
+map/pdftex.map}{/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/en
+c/dvips/base/8r.enc}
 
 
-] [2
-
- <./Figure/figure.pdf>] (./Assignment_new.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package rerunfilecheck Info: File `Assignment_new.out' has not changed.
+ <./Figure/figure.pdf>] (./Assignment.aux)
+Package rerunfilecheck Info: File `Assignment.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29918 strings out of 476025
- 601993 string characters out of 5780034
- 1890388 words of memory out of 5000000
- 49721 multiletter control sequences out of 15000+600000
- 572236 words of font info for 149 fonts, out of 8000000 for 9000
+ 29903 strings out of 476025
+ 601740 string characters out of 5780034
+ 1869388 words of memory out of 5000000
+ 49720 multiletter control sequences out of 15000+600000
+ 570860 words of font info for 147 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,14n,96p,1182b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,9n,96p,1178b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr7.pfb></opt/homebrew/Cellar/texlive/20230313/sha
-re/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></opt/homebrew/Cellar/texliv
-e/20230313/share/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></opt/homebrew/
-Cellar/texlive/20230313/share/texmf-dist/fonts/type1/public/txfonts/txex.pfb></
-opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/public/txfont
-s/txsy.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/
-urw/times/utmb8a.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fo
-nts/type1/urw/times/utmr8a.pfb></opt/homebrew/Cellar/texlive/20230313/share/tex
-mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Assignment_new.pdf (2 pages, 71660 bytes).
+sfonts/cm/cmmi10.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb></opt/homebrew/Cellar/texlive/20230313/sh
+are/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></opt/homebrew/Cellar/texli
+ve/20230313/share/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></opt/homebrew
+/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/public/txfonts/txsy.pfb><
+/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/urw/times/ut
+mb8a.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/ur
+w/times/utmr8a.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/font
+s/type1/urw/times/utmri8a.pfb>
+Output written on Assignment.pdf (1 page, 61536 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
- 20 named destinations out of 1000 (max. 500000)
+ 71 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

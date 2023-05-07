@@ -125,92 +125,34 @@ columns=fullflexible
 
 \textbf{12.13.1.15: Question:}\\
  	Consider the experiment of throwing a die,if a multiple of 3 comes up,throw the die again and if any other number comes,toss a coin.Repeat this experiment till a coin is tossed.Find the conditional probability of the event `the coin shows a tail',given that `at least one die shows a 3'.
-\\\\
- \textbf{Answer:$\frac{1}{2}$.}\\
+ \\\textbf{Answer:$\frac{1}{2}$.}
+ \\\textbf{Solution:}
  \\
- \textbf{Solution:}
- \\
- Given that a die is thrown and if the outcome is a multiple of 3 i.e.,3 or 6 then another die is thrown, else a coin is tossed.The experiment is repeated till a coin is tossed.
- \\ Let k be the outcome of $j^{\text{th}}$ die roll.
-\\ And $X_j$ be a random variable such that
-\begin{align}
-        X_j=  
-        \begin{cases}
-            1 & k \in \{3,6\} \\
-            0 & k \in \{1,2,4,5\}
-        \end{cases}
-        \label{eq:ncert/12/13/1/15/pmf-X}
-    \end{align}
-\begin{align}
-        \pr{X_j=i} = 
-        \begin{cases}
-            \frac{1}{3} & i=1 \\
-            \frac{2}{3} & i=0
-        \end{cases}
-        \label{eq:ncert/12/13/1/15/pmf-X}
-    \end{align}
-Let Y be a random variable for the coin toss then
-\begin{align}
-        Y=  
-        \begin{cases}
-            1 & tail \\
-            0 & head
-        \end{cases}
-        \label{eq:ncert/12/13/1/15/pmf-X}
-    \end{align}
-\begin{align}
-        \pr{Y=i} = 
-        \begin{cases}
-            \frac{1}{2} & i=1 \\
-            \frac{1}{2} & i=0
-        \end{cases}
-        \label{eq:ncert/12/13/1/15/pmf-X}
-    \end{align} 
-\\Let Z be a random variable which represents the number of times 3 has occured in the die rolls.
-\\Then $Z \in \{0,1,2,...,\infty\} $
-\\ Need to Find, Conditional Probability of the event `the coin shows a tail',given that `at least one die shows a 3', i.e., \pr{Y=1|Z\geq 1}
-
-\begin{align}
-    \pr{Y=1|Z\geq 1}=\frac{\pr{Y=1,Z\geq 1}}{\pr{Z \geq 1}}
-\end{align}
-The event of rolling the die is a markov process because the outcome of the $n^{\text{th}}$ die roll depends only on the outcome of the ${n-1}^{\text{th}}$ die roll i.e.,
-\begin{align}
-       \pr{X_n =i_n|X_0=i_0,...,X_{n-1}=i_{n-1}}&= \pr{X_n=i_n|X_{n-1}=i_{n-1}}\\
-       \pr{X_n=1|X_{n-1}=1}&=\frac{1}{3}\\
-       \pr{X_n=0|X_{n-1}=1}&=\frac{2}{3}\\
-       \pr{X_n=1|X_{n-1}=0}&=0\\
-       \pr{X_n=0|X_{n-1}=0}&=0
-\end{align}
-If we are tossing the coin after n die rolls then
-\begin{align}
-       \pr{Y=1|X_n =0}=\pr{Y=0|X_n=0}=\frac{1}{2}\\
-        \pr{Y=1|X_n =1}=\pr{Y=0|X_n=1}=0
-\end{align}
-The outcome of coin toss is depending only on the last die roll (since we are tossing the coin only when $X_n=0$) and this is independent of number of die rolls and also the number of times we get 3 before the last die roll.
-\\Therefore,
-\begin{align}
-       \pr{Y=1,Z\geq 1}={\pr{Y=1}}.{\pr{Z\geq 1}}
-\end{align}
-Substituting eq(13) in eq(5), we get
-\begin{align}
-    \pr{Y=1|Z\geq 1}&=\frac{\pr{Y=1}.\pr{Z\geq 1}}{\pr{Z \geq 1}}\\
-    \pr{Y=1|Z \geq 1} &= \pr{Y=1}\\
-    \pr{Y=1|Z \geq 1} &= \frac{1}{2}
-\end{align}
-Hence,
-\\Probability of the event `the coin shows a tail',given that `at least one die shows a 3' is $\frac{1}{2}$.
-\\
-\\The below is the Markov Chain Diagram for this experiment.
-\\ States are labelled with numbers and they are defined as
-\\ State 0 : Initial state , a die is to be rolled
-\\ State 1 : Die is rolled and the outcome is not a multiple of 3 , a coin is to be tossed next.
-\\ State 2 : Die is rolled and the outcome is multiple of 3, the die is to be rolled again.
-\\ State 3 : Coin is tossed and outcome is Head.
-\\ State 4 : Coin is tossed and outcome is Tail.
-\\ State 5 : Terminal state and end of experiment.
-\begin{figure}
+ The given experiment is a Markov Process and the following is the Markov Chain Diagram for this experiment.
+ \begin{figure}[h]
 \centering
 \includegraphics[width=\columnwidth]{./Figure/figure.pdf}
 \caption { Markov Chain Diagram }
 \end{figure}
+\\The states in the Diagram are defined as follows,
+\\State $x_1$ : Die roll results in 3 and the die is to be rolled again.
+\\State $x_2$ : Die roll results in 6 and the die is to be rolled again.
+\\State $x_3$ : Die roll results in not a multiple of 3 and a coin is to be tossed now.
+\\State $y_1$ : Coin toss results in Tail
+\\State $y_2$ : Coin toss results in Head
+\\ Need to Find, Conditional Probability of the event `the coin shows a tail',given that `at least one die shows a 3', i.e., $\pr{y_1|x_1,x_3} $
+\\$\pr{y_1|x_1,x_3}$ refers to Conditional Probability of being in state $y_1$ given that the Markov chain has been in state $x_1$ atleast once and has also visited state $x_3$.
+\begin{align}
+       \pr{y_1|x_1,x_3} = \frac{\pr{y_1,x_3|x_1}}{\pr{x_3|x_1}}
+    \end{align}
+$\pr{y_1,x_3|x_1}$ refers to the Probability that Markov Chain transitions from state $x_1$ to state $x_3$ and then to state $y_1$.
+\\This Markov Chain is time homogenous . So,
+\begin{align}
+        \pr{y_1,x_3|x_1} &= \pr{y_1|x_3}\pr{x_3|x_1}\\
+        \pr{y_1|x_1,x_2} &=\frac{\pr{y_1|x_3}\pr{x_3|x_1}}{\pr{x_3|x_1}}\\
+        \pr{y_1|x_1,x_3} &= \pr{y_1|x_3}\\
+        \pr{y_1|x_1,x_3} &= \frac{1}{2}
+    \end{align}
+Hence,
+\\Probability of the event `the coin shows a tail',given that `at least one die shows a 3' is $\frac{1}{2}$.
 \end {document}
