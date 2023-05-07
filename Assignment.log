@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  7 MAY 2023 12:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  7 MAY 2023 20:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1428,7 +1428,7 @@ ve/20230313/share/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></opt/homebrew
 mb8a.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/ur
 w/times/utmr8a.pfb></opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/font
 s/type1/urw/times/utmri8a.pfb>
-Output written on Assignment.pdf (1 page, 61536 bytes).
+Output written on Assignment.pdf (1 page, 61535 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  50 compressed objects within 1 object stream
